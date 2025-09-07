@@ -1,0 +1,16 @@
+{
+  "@@locale": "en",
+  "helloWorld": "Hello World",
+  "@helloWorld": {
+    "description": "The traditional hello world message"
+  },
+  "welcome": "Welcome, {name}!",
+  "@welcome": {
+    "description": "Welcome message with name parameter",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  }
+}
