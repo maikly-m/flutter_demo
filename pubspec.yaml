@@ -15,17 +15,28 @@ dependencies:
   intl: ^0.20.2
   flutter_localizations:
     sdk: flutter
+  flutter_svg: ^2.0.9  # 检查最新版本
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
   intl_utils: ^2.8.5
 
 
 flutter:
-
   uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/data/config.json
+
+  # 配置字体资源（可选）
+  fonts:
+    - family: MyCustomFont
+      fonts:
+        - asset: assets/fonts/ComicNeue-Regular.ttf
+          weight: 700
+
 flutter_intl:
   enabled: true
